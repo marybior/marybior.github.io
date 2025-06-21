@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Real Estate Virtual Assistant</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav id="navbar">
+        <div class="container">
+            <a href="#hero" class="logo">Your Name VA</a>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#pain-points">Solutions</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section id="hero" class="hero-section section">
+            <div class="container">
+                <h1 class="fade-in">Your Seamless Real Estate Operations Start Here.</h1>
+                <p class="subheadline fade-in delay-1">Stop drowning in admin and reclaim your time. I'm your detail-obsessed virtual assistant, ready to elevate your business.</p>
+                <div class="hero-ctas fade-in delay-2">
+                    <a href="#contact" class="btn primary-btn">Work With Me</a>
+                    <a href="#services" class="btn secondary-btn">View Services</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section section alternate-bg">
+            <div class="container fade-in">
+                <div class="about-content">
+                    <div class="about-image-placeholder">
+                        <img src="https://via.placeholder.com/200" alt="Your Photo" class="circular-photo">
+                    </div>
+                    <div class="about-text">
+                        <h2>About Me</h2>
+                        <p>Hello! I'm **[Your Name]**, your dedicated virtual assistant with a passion for meticulous organization and streamlined operations. For real estate professionals, every detail matters, and that's where I shine. My goal is to free you from the administrative burden, allowing you to focus on what you do best: growing your business and serving your clients.</p>
+                        <p>Based in **Uganda** but working diligently on **U.S. hours**, I bring a unique blend of global capability and unwavering commitment. I'm fluent in the tools that power your business, from managing **CRMs and inboxes** to perfecting **listing preparation, scheduling, and follow-ups**. Consider me your strategic partner, ensuring no lead slips, no task is overlooked, and your back office runs flawlessly.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="services-section section">
+            <div class="container fade-in">
+                <h2>My Services</h2>
+                <div class="services-grid">
+                    <div class="service-category">
+                        <h3>Real Estate VA Services</h3>
+                        <div class="service-cards">
+                            <div class="service-card">
+                                <i class="fas fa-handshake"></i>
+                                <h4>Lead Handling & Nurturing</h4>
+                                <p>Efficiently manage and qualify incoming leads, ensuring no opportunity is missed.</p>
+                            </div>
+                            <div class="service-card">
+                                <i class="fas fa-database"></i>
+                                <h4>CRM Cleanup & Management</h4>
+                                <p>Organize and optimize your CRM for better client tracking and follow-up.</p>
+                            </div>
+                            <div class="service-card">
+                                <i class="fas fa-home"></i>
+                                <h4>Listing Coordination & Prep</h4>
+                                <p>From data entry to photo organization, I handle all your listing needs.</p>
+                            </div>
+                            <div class="service-card">
+                                <i class="fas fa-calendar-alt"></i>
+                                <h4>Showing Scheduling</h4>
+                                <p>Coordinate and confirm property showings, keeping your calendar clear.</p>
+                            </div>
+                            <div class="service-card">
+                                <i class="fas fa-file-invoice"></i>
+                                <h4>Transaction Coordination Support</h4>
+                                <p>Assist with paperwork, deadlines, and communication throughout transactions.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-category">
+                        <h3>General Virtual Assistant Services</h3>
+                        <div class="service-cards">
+                            <div class="service-card">
+                                <i class="fas fa-calendar-check"></i>
+                                <h4>Calendar & Appointment Management</h4>
+                                <p>Keep your schedule optimized and never miss an important meeting.</p>
+                            </div>
+                            <div class="fas fa-envelope-open-text"></i>
+                                <h4>Email Management</h4>
+                                <p>Tame your inbox, prioritize communications, and respond efficiently.</p>
+                            </div>
+                            <div class="service-card">
+                                <i class="fas fa-tasks"></i>
+                                <h4>Administrative Operations</h4>
+                                <p>Handle daily tasks, data entry, and general office support.</p>
+                            </div>
+                            <div class="service-card">
+                                <i class="fas fa-bullhorn"></i>
+                                <h4>Basic Social Media Updates</h4>
+                                <p>Maintain your online presence with consistent and engaging posts.</p>
+                            </div>
+                            <div class="service-card">
+                                <i class="fas fa-chart-line"></i>
+                                <h4>Reporting & Data Entry</h4>
+                                <p>Compile reports and maintain accurate records for insightful analysis.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="pain-points" class="pain-points-section section alternate-bg">
+            <div class="container fade-in">
+                <h2>What’s Slowing You Down?</h2>
+                <ul class="pain-points-list">
+                    <li><i class="fas fa-times-circle"></i> Leads slipping through cracks</li>
+                    <li><i class="fas fa-times-circle"></i> Inbox buried in chaos</li>
+                    <li><i class="fas fa-times-circle"></i> No time to prep listings</li>
+                    <li><i class="fas fa-times-circle"></i> Losing track of crucial follow-ups</li>
+                    <li><i class="fas fa-times-circle"></i> Trying to do everything yourself</li>
+                </ul>
+                <div class="cta-center">
+                    <a href="#contact" class="btn primary-btn">Let’s Fix That.</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="blog" class="blog-section section">
+            <div class="container fade-in">
+                <h2>Back Office Brief</h2>
+                <div class="blog-grid">
+                    <div class="blog-card">
+                        <img src="https://via.placeholder.com/300x200" alt="Blog Image 1">
+                        <h4>Mastering Your Real Estate CRM</h4>
+                        <p>Learn how to optimize your CRM for maximum efficiency and client retention.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="blog-card">
+                        <img src="https://via.placeholder.com/300x200" alt="Blog Image 2">
+                        <h4>5 Ways a VA Boosts Your Listings</h4>
+                        <p>Discover how a virtual assistant can streamline your listing preparation process.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="blog-card">
+                        <img src="https://via.placeholder.com/300x200" alt="Blog Image 3">
+                        <h4>Time-Saving Tips for Busy Agents</h4>
+                        <p>Practical strategies to reclaim your schedule and focus on high-value tasks.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section section alternate-bg">
+            <div class="container fade-in">
+                <h2>Let's Connect</h2>
+                <p class="contact-intro">Ready to transform your back office? Fill out the form below or reach out directly.</p>
+                <div class="contact-content">
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="6" required></textarea>
+                        </div>
+                        <button type="submit" class="btn primary-btn">Send Message</button>
+                    </form>
+                    <div class="contact-info">
+                        <h3>Connect Directly</h3>
+                        <div class="contact-links">
+                            <a href="https://wa.me/[YourWhatsAppNumber]" target="_blank" class="contact-link">
+                                <i class="fab fa-whatsapp"></i> WhatsApp
+                            </a>
+                            <a href="mailto:your.email@example.com" class="contact-link">
+                                <i class="fas fa-envelope"></i> Email
+                            </a>
+                            <a href="https://www.linkedin.com/in/yourprofile" target="_blank" class="contact-link">
+                                <i class="fab fa-linkedin"></i> LinkedIn
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Your Name VA. All rights reserved.</p>
+            <a href="#hero" class="scroll-to-top">
+                <i class="fas fa-arrow-up"></i> Scroll to Top
+            </a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
